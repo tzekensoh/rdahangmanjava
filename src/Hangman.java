@@ -1,4 +1,3 @@
-import java.io.Console;
 import java.util.Scanner;
 
 public class Hangman {
@@ -59,5 +58,6 @@ public class Hangman {
             System.out.println(String.join(" ", answerArray));
             System.out.println("Good job! The answer was " + word);
         }
+        scanner.close();
     }
 }
